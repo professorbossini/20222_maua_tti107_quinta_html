@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Testando áudios</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1>Minhas músicas</h1>
+  <p>Ouça algumas músicas que eu gosto.</p>
+  <!-- <audio controls>
+     audio/mpeg é um mime type
+    <source src="audios/audio1.mp3" type="audio/mpeg">
+  </audio> -->
+
+  <audio controls>
+    <source src="audios/audio1.mp3" type="audio/mpeg">
+    <source src="audios/audio1.ogg" type="audio/ogg">
+    <a href="audios/audio1.mp3">Download</a>
+  </audio>
+
+  <audio 
+    controls
+    autoplay
+    loop
+    muted
+    src="audios/audio2.mp3"
+  ></audio>
+
+  <!-- <audio controls src="audios/audio1.mp3" type="audio/mpeg"></audio> -->
+</body>
+</html>
